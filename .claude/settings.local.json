@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(npm audit:*)",
+      "Bash(dir:*)",
+      "Bash(npm:*)",
+      "Bash(export:*)",
+      "WebSearch",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright",
+      "Bash(gh:*)",
+      "Bash(where gh:*)"
     ]
   }
 }
